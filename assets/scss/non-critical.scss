@@ -1,0 +1,191 @@
+/* ======= Colors ======= */
+$back-color1: white;
+$headers-orange: #F39E1D;
+$main: black;
+/* ====== Footer ====== */
+.footer {
+  background: $back-color1;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px 0;
+}
+/* ======= About ======= */
+.about-section {
+  overflow: hidden;
+
+  .container {
+    display: flex;
+    align-items: center;
+    margin: 2em auto;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h2 {
+        margin-bottom: 2em;
+        text-align: center;
+      }
+    }
+    .image {
+      width: 200%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* ======= Search ======= */
+.search-section {
+  overflow: hidden;
+  text-align: center;
+
+  .container {
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      
+      .principle {
+        width: 30%;
+        margin: 5em 1em;
+        
+        .image {
+          border-radius: 50%;
+          padding: 15%;
+          background-color: $headers-orange;
+          
+          img {
+            width: 100%;
+          }
+        }
+        .image:hover {
+          transform: scale(1.2, 1.2);
+        }
+      }
+    }
+  }
+}
+/* ======= Rules ======= */
+.rules-section {
+  overflow: hidden;
+  text-align: center;
+
+  .container {
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        
+        .principle {
+          width: 30%;
+          margin: 1em;
+          
+        }
+      }
+    }
+  }
+}
+/* ======= Help ======= */
+.help-section {
+  overflow: hidden;
+  text-align: center;
+
+  .container {
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      
+      .principle {
+        width: 25%;
+        margin: 3em 1em;
+        
+        .image {
+          border-radius: 30%;
+          padding: 15%;
+          background-color: $headers-orange;
+          
+          img {
+            width: 100%;
+          }
+        }
+        .image:hover {
+          transform: scale(1.2, 1.2);
+        }
+      }
+    }
+  }
+}
+/* ======= Reviews ======= */
+.reviews-section {
+  overflow: hidden;
+  text-align: center;
+
+  .container {
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      .principle {
+        width: 100%;
+        margin: 2em 1em;
+        padding: 5%;
+        border-radius: 50%;
+        background-color: $headers-orange;
+       
+      }
+    }
+  }
+}
+/* ======= Contacts ======= */
+.contacts-section {
+  overflow: hidden;
+  text-align: center;
+
+  .container {
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2em auto;
+        
+        p {
+          width: 40%;
+          margin: 2em;
+        }
+      }
+
+      .contacts {
+        .container {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
